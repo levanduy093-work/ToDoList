@@ -12,8 +12,5 @@ struct OffsetKey: PreferenceKey {
     static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
         value = nextValue()
     }
-    
-    
-    
 }
 

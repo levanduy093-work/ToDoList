@@ -27,7 +27,7 @@ extension Date {
         return Calendar.current.compare(self, to: .init(), toGranularity: .hour) == .orderedSame
     }
     
-    // Checking if the Date is the same Hour
+    // Checking if the Hour is Ascending
     var isPast: Bool {
         return Calendar.current.compare(self, to: .init(), toGranularity: .hour) == .orderedAscending
     }
